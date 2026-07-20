@@ -2,15 +2,13 @@
 
 # Discord Web Auto Quest Extension
 
-<img align="right" src="./assets/icon.png" width=200 alt="Discord Auto Quest Extension logo">
+<img align="right" src="./assets/icon.jpg" width=200 alt="Discord Auto Quest Extension logo">
 
 Extension that automatically completes Discord quests. No more manually watching videos or playing games - just click a button and let it run quests one by one automatically and work for all device.
 
-Original Source from [**aamiaa**](https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb)  🌸
-
 
 > [!NOTE]
-> Join Discord ID Server Support: https://discord.gg/HbZEEuj4KJ
+> Join Discord ID Server Support: https://discord.gg/peachygang
 
 > [!IMPORTANT]
 > **25/04/2026** 
