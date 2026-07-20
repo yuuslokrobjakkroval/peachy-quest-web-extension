@@ -111,5 +111,3 @@ Built with Manifest V3. Uses:
 
 > [!IMPORTANT]
 > This repository is strictly for educational purposes and security research only. It is designed to demonstrate how web APIs and user-agent spoofing work in a browser environment. Any misuse of this tool is the sole responsibility of the user. The author does not condone any actions that violate third-party Terms of Service.
-
-# peachy-quest-web-extension
