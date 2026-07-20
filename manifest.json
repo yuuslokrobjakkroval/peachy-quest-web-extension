@@ -4,18 +4,16 @@
   "version": "1.2.6",
   "description": "Automatically complete Discord quests in the browser without any manual work",
   "icons": {
-    "16": "assets/icon.png",
-    "48": "assets/icon.png",
-    "128": "assets/icon.png"
+    "16": "assets/icon.jpg",
+    "48": "assets/icon.jpg",
+    "128": "assets/icon.jpg"
   },
   "permissions": [
     "declarativeNetRequestWithHostAccess",
     "scripting",
     "activeTab"
   ],
-  "host_permissions": [
-    "https://*.discord.com/*"
-  ],
+  "host_permissions": ["https://*.discord.com/*"],
   "background": {
     "service_worker": "background.js"
   },
