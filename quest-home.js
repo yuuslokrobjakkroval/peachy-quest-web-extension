@@ -234,6 +234,16 @@
 
     panel.appendChild(questListContainer);
 
+    const copyButton = document.createElement("button");
+    copyButton.id = "DiscordQuestCopyButton";
+    copyButton.textContent = "Copy JSON";
+    copyButton.style.cssText =
+      "width: 100%; margin-bottom: 8px; background: rgba(255,255,255,0.1); border: 1px solid #444; border-radius: 6px; color: white; cursor: pointer; font-size: 12px; padding: 6px; font-family: inherit;";
+    copyButton.title =
+      "Copy the current quest progress as JSON to paste into the /quest-status command in Discord";
+    copyButton.addEventListener("click", () => copyQuestJson(copyButton));
+    panel.appendChild(copyButton);
+
     const title = document.createElement("h3");
     title.textContent = "Discord ID | Auto Quest";
     title.style.cssText =
@@ -247,6 +257,28 @@
     panel.appendChild(credit);
 
     document.body.appendChild(panel);
+  }
+
+  function copyQuestJson(button) {
+    const json = JSON.stringify([...questStateCache.values()]);
+    const originalText = "Copy JSON";
+
+    const flash = (text) => {
+      button.textContent = text;
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 1500);
+    };
+
+    if (questStateCache.size === 0) {
+      flash("No quest data yet");
+      return;
+    }
+
+    navigator.clipboard
+      .writeText(json)
+      .then(() => flash("Copied!"))
+      .catch(() => flash("Copy failed"));
   }
 
   window.addEventListener("message", ({ source, data }) => {

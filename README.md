@@ -10,11 +10,11 @@ Original Source from [**aamiaa**](https://gist.github.com/aamiaa/204cd9d42013ded
 
 
 > [!NOTE]
-> Join Discord ID Server Support: https://discord.gg/HbZEEuj4KJ
+> [Server Support](https://discord.gg/peachygang)
 
 > [!IMPORTANT]
 > **25/04/2026** 
-> Extension is now working normally. Thanks you~ 💝
+> Extension is now working normally. Thank you~ 💝
 
 > [!CAUTION]
 > As of April 7th 2026, Discord has expressed their intent to crack down on automating quest completion.
@@ -113,5 +113,3 @@ Built with Manifest V3. Uses:
 
 > [!IMPORTANT]
 > This repository is strictly for educational purposes and security research only. It is designed to demonstrate how web APIs and user-agent spoofing work in a browser environment. Any misuse of this tool is the sole responsibility of the user. The author does not condone any actions that violate third-party Terms of Service.
-
-# peachy-quest-web-extension

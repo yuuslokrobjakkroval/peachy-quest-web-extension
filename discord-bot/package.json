@@ -1,0 +1,20 @@
+{
+  "name": "peachy-quest-companion-bot",
+  "version": "1.0.0",
+  "description": "Companion Discord bot for the Peachy Quest extension community — status embeds, onboarding, self-reported leaderboard, staff announcements, and issue reporting. Does not automate or touch any user's Discord account.",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "license": "GPL-3.0"
+}
